@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="refresh" content="3">
+        <link rel="stylesheet"type="text/css"href="style.css">
+        <title>scientific calculator HTML+CSS</title>
+        <meta name="viewport"content="width=device-width, initial-scale=1">
+        <style>
+body{
+    background:linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+img{
+    width: 300px;
+    height: 250px;
+}
+button{
+    background: linear-gradient(to right, #fffbd5, #b20a2c);
+}
+        </style>
+</head>
+<body translate="no">
+    <div class="calculator">
+       
+        <div class="screen">
+            <div class="input">Developer</div>
+            <div class="main-display">AKI</div>
+        </div>
+        <hr>
+        <b><h2>WELCOME</h2></b>
+        <h3>let say something about scientific calculator</h3>
+             <p>scientific calculatos performs the same function as their standard electronic 
+        calculator counterparts,but they also have myriad other features available.there are three main 
+        catagories of of calculators on market today ;business,basic,and scientific.the scientific calculator 
+         how ever is the only one that can handle certain function in a field such as trigonometry, 
+        physics,chemistry and engineering. a scientific calculor has Additional features that allow you work
+      with exponents and logs which requires more memory in order to perform functions for the best result.
+        while also you can do basic calculations such as addition,substraction,multiplication,and division,
+        that barely scratches the surface of the types of equations this calculator can handle. those are the 
+    three catagories of calculator:-</p>
+            <img src="9700--03-660x660.png" alt="image of business calculator">
+            <img src="daf5e24a-6019-4596-8a4b-3c8c57584160_800x800.jpg.jpeg"alt="image of basic 
+            calculator">
+            <img src="genesis_scientific_calculator_1.jpg"alt="image of  scientific calculator">
+        <ul>
+            <li>For Addition use +</li>
+            <li>for substraction use-</li>
+            <li>for multiplication use x</li>
+            <li>for division use /</li>
+
+        </ul>
+
+        <input type="text" name="text" id="screen">
+       </form>
+        <div class="modifiers">
+            <button class="shift center-shift"tabindex="1"></button>
+            <button class="alpha center-alpha"tabindex="2"></button>
+            <button class="on center-shift"tabindex="4"></button>
+            <button class="mode"tabindex="3"></button>
+        </div>
+        <div class="replay">Replay</div>
+        <table class="function-keys">
+            <tr>
+                <td><button class="reciprocal center-shift">x<span class="sup">-1</span></button></td>
+                <td><button class="compine center-shift">nCr</button></td>
+              <!-- <td></td>
+                <td></td>--> 
+                <td><button class="pol"(</button></td>
+                <td><button class="cube center-shift">x<span class="sup">3</span></button></td>   
+            </tr>
+            <tr>
+ <td><button class="frac center-shift">a<span class="sup">b</span>/<span class="xxs">c</span></button></td>
+        <td><button>radic;</button></td> 
+        <td><button class="square">x<span class="sup>2</span></button></td>
+        <td><button class="pow center-shift">^</span>button></td>
+        <td><button class="log center-shift">log</button></td>
+        <td><button class="ln">ln</button></td>
+        </tr>
+        <tr>
+            <button onclick="document.cacl.text.value+='x'">x</button>
+            <button onclick="document.cacl.text.value+='-'">-</button>
+            <button onclick="document.cacl.text.value+='/'">+</button>
+            <button onclick="document.cacl.text.value+='%'">%</button>
+        </tr>
+        
+        
+            <td><button class="hyp">hyp</button></td>
+            <td><button class="sin">sin</button></td>
+            <td><button class="cos">cos</button></td>
+            <td><button class="tan">tan</button></td>
+        
+        <tr>
+            <td><button class="rcl center-shift">RCL</button></td>
+            <td><button class="eng center-shift">ENG</button></td>
+        
+           </tr>
+            </table>
+            <table class="basic-keys">
+                <tr>
+                    <td><button>7</button></td>
+                    <td><button>8</button></td>
+                    <td><button>9</button></td>
+                    <td><button class="pink del center-shift">DEL</button></td>
+                    <td><button class="pink ac center-shift">AC</button></td>
+                </tr>
+                <tr>
+                    <td><button>4</button></td>
+                    <td><button>5</button></td>
+                    <td><button>6</button></td>
+                    
+                </tr>
+                <tr>
+                    <td><button>3</button></td>
+                    <td><button>2</button></td>
+                    <td><button>1</button></td>
+                </tr>
+                 <tr>
+                    <td><button class="zero center-shift">0</button></td>
+                    <td><button class="period center-shift">.</button></td>
+                    <td><button class="exp center-shift">EXP</button></td>
+                    <td><button class="ans center-shift">ANS</button></td>
+                    <td><button class="equals center-shift">=</button></td>
+                </tr>
+             </table>
+             </div>
+             
+             <ul>
+               
+             </ul>
+             <!-- HTML (Hypertext Markup Language) is a text-based approach to describing how content contained within an HTML file is structured.
+                 This markup tells a web browser how to display text, images and other forms of multimedia on a webpage.
+ HTML is a formal recommendation by the World Wide Web Consortium (W3C) and is generally adhered to by all major web browsers,
+including both desktop and mobile web browsers. HTML5 is the latest version of the specification.
+ HTML is a text file containing specific syntax, file and naming conventions that show the computer and the web server that
+it is in HTML and should be read as such. By applying these HTML conventions to a text file in virtually any text editor, 
+a user can write and design a basic webpage, and then upload it to the internet.The most basic of HTML conventions is the inclusion of a 
+document type declaration at the beginning of the text file. This always comes first in the document,
+ because it is the piece that affirmatively informs a computer that this is an HTML file. The document header typically looks like this: 
+ <!DOCTYPE html>. It should always be written that way,
+ without any content inside it or breaking it up. Any content that comes before this declaration will not be recognized as HTML
+  by a computer.
+
+ Doctypes are not just used for HTML, they can apply to the creation of any document that uses SGML (Standard Generalized Markup Language).
+ SGML is a standard for specifying a specific markup language being used. HTML is one of several markup languages that SGML and doctype 
+ declarations apply to.
+
+The other critical requirement for creating an HTML file is saving it with a .html file extension.
+ Whereas the doctype declaration signals HTML to the computer from the inside of the file, the file extension signals HTML to 
+ the computer from the outside of the file.
+ By having both, a computer can tell that it's an HTML file whether it's reading the file or not. This becomes especially 
+ important when uploading the files to the web, because the web server needs to know what to do with the files before it can send them
+  to a client computer for the inner contents to be read.
+
+   XHTML was developed to make HTML more extensible and increase interoperability with other data formats .
+    There are two main reasons behind the creation of XHTML: It creates a stricter standard for making web pages, 
+    reducing incompatibilities between browsers. So it is compatible for all major browsers.             
+           XHTML was developed to make HTML more extensible and increase interoperability with other data formats . 
+  There are two main reasons behind the creation of XHTML: It creates a stricter standard for making web pages, reducing
+  incompatibilities between browsers. So it is compatible for all major browsers.     
+                
+   HTML and XHTML are two mark up language which XHTML is more structured and used stricter than HTML5, and 
+    requires that all tags be properly closed and in lower case . XHTML has some restriction about tags can be 
+    nested inside each other.HTML is a markup language that was used to build the world's first webpage.
+     Ever since this webpage was created, there have been a lot of modifications and variations done 
+      in the HTML language, such as adding the concept of error handling,addition of new features such as a table, etc., 
+       because of which XHTML came into the picture.
+       Both XHTML and HTML5 prioritize accessibility and provide tools and techniques for creating accessible web pages. 
+      This includes using semantic markup, providing alternative text for images, and using ARIA 
+    (Accessible Rich Internet Applications) attributes to improve accessibility for screen readers and 
+    other assistive technologies.
+
+             
+
+             -->
+
+
+             <iframe src="http://www.big.com">
+</body>
+</html>
